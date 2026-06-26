@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace MergedExamples
+﻿namespace MergedExamples
 {
     class Program
     {
@@ -27,8 +25,8 @@ namespace MergedExamples
             var inferredVariable = "I am a string";
 
             // Array declaration
-            int[] numbers = { 10, 20, 30, 40, 50 };
-            string[] fruits = new string[] { "Apple", "Banana", "Cherry" };
+            int[] numbers = [10, 20, 30, 40, 50];
+            string[] fruits = ["Apple", "Banana", "Cherry"];
 
             // Constant
             const double EarthGravity = 9.81;

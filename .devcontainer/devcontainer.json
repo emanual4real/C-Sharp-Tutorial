@@ -22,7 +22,13 @@
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
-			"extensions": ["ms-dotnettools.csdevkit", "eamodio.gitlens"]
+			"extensions": [
+				"ms-dotnettools.csdevkit",
+				"eamodio.gitlens"
+			],
+			"settings": {
+				"csharp.format.enable": true,
+			}
 		}
 	},
 
