@@ -1,14 +1,19 @@
-﻿using System;
+﻿/*
+    Instructions: Clean up this file and learn about If and Else statements
 
+    Step 1. Manually fix a couple formatting issues
+    Step 2. Open a terminal in this directory
+    Step 3. Execute `dotnet format` to automatically clean up the file
+*/
 namespace Project
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int a = 10;
-            int b = 50;
-            int c = 30;
+                                    int a = 10;
+                                    int b = 50;
+                                    int c = 30;
 
             if (a > b && a > c)
             {
@@ -19,61 +24,61 @@ namespace Project
                 Console.WriteLine("B is greater than C and A");
             }
             else
-            {
-                Console.WriteLine(" ");
-                Console.WriteLine("C is the largest");
-                Console.WriteLine(" ");
+                                {
+                                    Console.WriteLine(" ");
+                                    Console.WriteLine("C is the largest");
+                                    Console.WriteLine(" ");
 
-            }
+                                }
             Console.WriteLine("Now Switch statment example:");
 
             int dayOfWeek = 3;
 
-            switch(dayOfWeek)
+switch (dayOfWeek)
             {
-            case 1:
-                Console.WriteLine("Monday");
-                break;
-            case 2:
-                Console.WriteLine("Tuesday");
-                break;
-            case 3:
-                Console.WriteLine("Wednesday");
-                break;
-            case 4:
-                Console.WriteLine("Thursday");
-                break;
-            case 5:
-                Console.WriteLine("Friday");
-                break;
-            case 6:
-                Console.WriteLine("Saturday");
-                break;
-            case 7:
-                Console.WriteLine("Sunday");
-                break;
-            default:
-                Console.WriteLine("Invalid day of the week");
-                break;
+                case 1:
+                    Console.WriteLine("Monday");
+                    break;
+                case 2:
+                    Console.WriteLine("Tuesday");
+                    break;
+                case 3:
+                    Console.WriteLine("Wednesday");
+                    break;
+                case 4:
+                    Console.WriteLine("Thursday");
+                    break;
+                case 5:
+                    Console.WriteLine("Friday");
+                    break;
+                                                case 6:
+                                                    Console.WriteLine("Saturday");
+                                                    break;
+                                                case 7:
+                    Console.WriteLine("Sunday");
+                    break;
+                default:
+                    Console.WriteLine("Invalid day of the week");
+                    break;
 
             }
 
-            Console.Write("TernaryOperatorExample");
+    Console.Write("TernaryOperatorExample");
 
 
-            int numb;
-            Console.Write("Enter the Number:");
-            numb = Convert.ToInt32(Console.ReadLine());
+                                            int numb;
+                        Console.Write("Enter the Number:");
+        numb = Convert.ToInt32(Console.ReadLine());
 
             string result = (numb % 2 == 0) ? "It is Even Number" : "It is Odd Number";
 
-            Console.WriteLine($"The number is {result}.");
-            Console.ReadLine();
+                                Console.WriteLine($"The number is {result}.");
+                                Console.ReadLine();
 
 
-            // Prevents the console from closing immediately
-            Console.WriteLine("Press Enter to exit...");
-            Console.ReadLine();
+// Prevents the console from closing immediately
+Console.WriteLine("Press Enter to exit...");
+Console.ReadLine();
         }
     }
 }
