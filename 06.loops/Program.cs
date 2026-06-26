@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace Program
+﻿namespace _6.loops
 {
-    class prog
+    class Program
     {
         static void Main(string[] args)
         {
